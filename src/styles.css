@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  font-family: sans-serif;
+  background-color: red;
+  height: 100%;
+}
+
+.bluebox {
+  background-color: #76c4c6;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navybox {
+  background-color: #1eac9c;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bluebox .dots {
+  display: flex;
+}
+
+.dot {
+  margin: 10px;
+  background-color: white;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+
+.navybox .bars {
+  display: flex;
+}
+
+.bar {
+  margin: 4px;
+  background-color: white;
+  width: 12px;
+  height: 50px;
+}
